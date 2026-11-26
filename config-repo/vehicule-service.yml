@@ -1,0 +1,5 @@
+server:
+  port: 8081
+driveeasy:
+  vehicle:
+    max-age: ${DRIVEEASY_CURRENT_YEAR:2026}

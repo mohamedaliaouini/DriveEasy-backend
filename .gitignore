@@ -1,0 +1,16 @@
+# Outils locaux : ne pas les envoyer sur GitHub.
+/tools/*
+!/tools/*.ps1
+/.m2/
+/.npm/
+/frontend/
+frontend/node_modules/
+frontend/dist/
+**/target/
+/.idea/
+/.vscode/
+*.log
+__pycache__/
+*.py[cod]
+
+/rapport/rendered/

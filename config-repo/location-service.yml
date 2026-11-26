@@ -1,0 +1,7 @@
+server:
+  port: 8083
+driveeasy:
+  location:
+    late-penalty-factor: 1.5
+    loyal-discount: 0.05
+    vip-discount: 0.10

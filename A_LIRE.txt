@@ -1,0 +1,19 @@
+
+- frontend/ : interface Angular 22
+- service-registry/, config-server/, api-gateway/ : infrastructure Spring Cloud
+- vehicule-service/, client-service/, location-service/ : services métier
+- config-repo/ : configuration centralisée
+- tools/ : scripts PowerShell de démarrage
+- rapport/Rapport_DriveEasy.pdf : rapport final avec captures Eureka et Zipkin
+- README.md : architecture, installation et routes REST
+
+DÉMARRAGE
+À la racine du projet, ouvre PowerShell et exécute :
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\start-driveeasy.ps1
+Docker Desktop doit être actif pour Zipkin. Garde les fenêtres PowerShell ouvertes.
+
+ADRESSES LOCALES
+Angular : http://localhost:4200
+Eureka : http://localhost:8761
+Zipkin : http://localhost:9411
+
